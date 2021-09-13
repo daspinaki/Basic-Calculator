@@ -1,0 +1,21 @@
+on Create()
+|
+on Start()<----------Onrestart()
+|			 ^			
+|			 |
+on Resume()		 |
+|			 |
+on Pause()----->onSave	 |	
+|		instance |
+|	|---------^		 |
+on Stop()>--------------- |
+|
+on Destroy()
+
+1. When App starts, oncreate, on start, on resume are called
+2. When minimized, from on resume , on pause and on stop are called. On reaccesing, on on Restart() is called. Then onstart is called.
+3. When app is closed, the from on resume, on pause, onResume, on Stop, on Destroy is called
+4. When changed to landScape, from on resume, on pause, on stop, on restart, on create, on start
+Restoring the Activity state using onRestoreInstanceState and onSaveInstanceState
+Is generally preferred and recommended
+5.Between onstart and on resume, onrestoreinstance is present
