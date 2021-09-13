@@ -1,5 +1,5 @@
 
-##Basic Calculator App
+## Basic Calculator App
 
 A simple Calculator made from scratch using fundamentals of android deveopment
 
