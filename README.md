@@ -25,8 +25,8 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
   
 ## Screenshots
 
-![App Screenshot](potrait.png | width=100)
-![App Screenshot](landscape.png | width=100)
+<img src="potrait.png" width="100" height="100">
+<img src="potrait.png" width="100" height="100">
 
   
 ## Badges
